@@ -14,4 +14,4 @@ class Manager extends Employee {
 }
 
 
-module.exports = Intern;
+module.exports = Manager;
