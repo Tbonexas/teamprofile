@@ -10,26 +10,120 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+const employee = [
+    {
+      type: "list",
+      message:
+        "Select a role for the employee you are adding.",
+      name: "role",
+      choices: ["Manager", "Engineer", "Intern"],
+    },
+    {
+      type: "input",
+      message: "Enter employees name.",
+      name: "name",
+    },
+    {
+      type: "input",
+      message: "Enter employees ID number.",
+      name: "id",
+    },
+    {
+      type: "input",
+      message: "Enter the email address for employee.",
+      name: "email",
+    },
+  ];
+  
+  const manager = [
+    {
+      type: "input",
+      message: "Enter office number for the manager you are adding",
+      name: "office",
+    },
+  ];
+  
+  const engineer = [
+    {
+      type: "input",
+      message: "Enter the username for the engineers github.",
+      name: "github",
+    },
+  ];
+  
+  const intern = [
+    {
+      type: "input",
+      message: "Enter the name of the school for the intern you are adding.",
+      name: "school",
+    },
+  ];
+  
+  const team = [];
+  
+  function addNewMember() {
+    inquirer
+      .prompt({
+        type: "confirm",
+        message: "Would you like to add an additional member?",
+        name: "add",
+      })
+      .then(function (response) {
+        if (response.add === true) {
+          memberData();
+        } else {
+          console.log(`You added all members.`);
+          const html = render(team);
+          fs.writeFile(outputPath, html, function (err) {
+            if (err) throw err;
+          });
+        }
+      });
+  }
+  
+  function memberData() {
+    inquirer.prompt(employee).then(function (data) {
+      switch (data.role) {
+        case "Manager":
+          inquirer.prompt(manager).then(function (member) {
+            let managerMember = new Manager(
+              data.name,
+              data.id,
+              data.email,
+              member.office
+            );
+            team.push(managerMember);
+            addNewMember();
+          });
+          break;
+        case "Engineer":
+          inquirer.prompt(engineer).then(function (member) {
+            let engineerMember = new Engineer(
+              data.name,
+              data.id,
+              data.email,
+              member.github
+            );
+            team.push(engineerMember);
+            addNewMember();
+          });
+          break;
+        case "Intern":
+          inquirer.prompt(intern).then(function (member) {
+            let internMember = new Intern(
+              data.name,
+              data.id,
+              data.email,
+              member.school
+            );
+            team.push(internMember);
+            addNewMember();
+          });
+      }
+    });
+  }
+  
 
-// Write code to use inquirer to gather information about the development team members,
-// and to create objects for each team member (using the correct classes as blueprints!)
+  addNewMember();
+  
 
-// After the user has input all employees desired, call the `render` function (required
-// above) and pass in an array containing all employee objects; the `render` function will
-// generate and return a block of HTML including templated divs for each employee!
-
-// After you have your html, you're now ready to create an HTML file using the HTML
-// returned from the `render` function. Now write it to a file named `team.html` in the
-// `output` folder. You can use the variable `outputPath` above target this location.
-// Hint: you may need to check if the `output` folder exists and create it if it
-// does not.
-
-// HINT: each employee type (manager, engineer, or intern) has slightly different
-// information; write your code to ask different questions via inquirer depending on
-// employee type.
-
-// HINT: make sure to build out your classes first! Remember that your Manager, Engineer,
-// and Intern classes should all extend from a class named Employee; see the directions
-// for further information. Be sure to test out each class and verify it generates an
-// object with the correct structure and methods. This structure will be crucial in order
-// for the provided `render` function to work! ```
