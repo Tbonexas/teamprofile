@@ -17,7 +17,9 @@ How do you deliver this? Here are some guidelines:
 
 * Use the [Inquirer npm package](https://github.com/SBoudrias/Inquirer.js/) to prompt the user for their email, id, and specific information based on their role with the company. For instance, an intern may provide their school, whereas an engineer may provide their GitHub username.
 
-* Your app will run as a Node CLI to gather information about each employee.
+* Your app will run as a Node CLI to gather information about each employee.  
+  
+    
 
 ## Test Pass:  
 ![image](https://user-images.githubusercontent.com/67118229/96195876-d1d9df80-0f02-11eb-9d6b-345b8788a83e.png)
@@ -26,3 +28,15 @@ How do you deliver this? Here are some guidelines:
 
 ## Repository:  
 [Tbonexas TeamProfile Repo](https://github.com/tbonexas/teamprofile)  
+
+## Link to video demo:
+[Working Demo](https://drive.google.com/drive/folders/1S1Q8ukaZ9Dlsqd1HvZqljDuLaWho4SQQ?usp=sharing)  
+
+  
+## Credits:  
+Node.js
+Inquirer
+Jest Test
+HTML 5
+CSS
+BootStrap
