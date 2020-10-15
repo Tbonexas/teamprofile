@@ -30,7 +30,7 @@ How do you deliver this? Here are some guidelines:
 [Tbonexas TeamProfile Repo](https://github.com/tbonexas/teamprofile)  
 
 ## Link to video demo:
-[Working Demo](https://drive.google.com/file/d/1Qt4mpdjL8-Ovr6u5e5L35mRbtPwZsb51/view) 
+[Working Demo](https://drive.google.com/file/d/19iiuk2hkDxWuJl-JUeP-f_mHWaHfbGln/view?usp=sharing) 
 
   
 ## Credits:  
