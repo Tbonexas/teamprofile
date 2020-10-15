@@ -34,9 +34,9 @@ How do you deliver this? Here are some guidelines:
 
   
 ## Credits:  
-Node.js
-Inquirer
-Jest Test
-HTML 5
-CSS
-BootStrap
+Node.js  
+Inquirer  
+Jest Test  
+HTML 5  
+CSS  
+BootStrap  
