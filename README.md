@@ -24,9 +24,8 @@ How do you deliver this? Here are some guidelines:
     
 
 ## Test Pass:  
-![image](https://user-images.githubusercontent.com/67118229/96195876-d1d9df80-0f02-11eb-9d6b-345b8788a83e.png)
-
-## Demo of working App:  
+![image](https://user-images.githubusercontent.com/67118229/96195876-d1d9df80-0f02-11eb-9d6b-345b8788a83e.png)  
+ 
 
 ## Repository:  
 [Tbonexas TeamProfile Repo](https://github.com/tbonexas/teamprofile)  
