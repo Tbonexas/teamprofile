@@ -25,6 +25,7 @@ How do you deliver this? Here are some guidelines:
 
 ## Test Pass:  
 ![image](https://user-images.githubusercontent.com/67118229/96195876-d1d9df80-0f02-11eb-9d6b-345b8788a83e.png)  
+![image](https://drive.google.com/file/d/1Q53PTl-vMYEI7Eyp87OLBn7SS_D0shuN/view)
  
 
 ## Repository:  
