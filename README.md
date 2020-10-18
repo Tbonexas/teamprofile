@@ -34,7 +34,10 @@ How do you deliver this? Here are some guidelines:
 [Working Demo](https://drive.google.com/file/d/19iiuk2hkDxWuJl-JUeP-f_mHWaHfbGln/view?usp=sharing) 
   
 ## Portfolio:  
-[Todd Wayment Portfolio](https://tbonexas.github.io/portfolio)
+[Todd Wayment Portfolio](https://tbonexas.github.io/portfolio)  
+
+## LinkedIn:
+[Linkedin profile](https://www.linkedin.com/in/todd-murdoch)
   
 ## Credits:  
 Node.js  
