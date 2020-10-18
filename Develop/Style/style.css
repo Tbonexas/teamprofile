@@ -1,4 +1,19 @@
-.team-heading {
-    color: green;
-    background-color: black;
+html {
+    background-image: url(https://cdn.hipwallpaper.com/i/41/69/5xUVsS.png);
+    background-position: initial;
 }
+.team-heading {
+    color: black;
+    background-image: url(https://cdn.hipwallpaper.com/i/42/33/Sh74Wt.jpg);
+    font-family: 'Acme', sans-serif;
+    text-shadow: 1px 1.5px 4px yellow;
+}
+
+body {
+    background: none;
+}
+
+.team-area {
+    padding: 5px;
+}
+
