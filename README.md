@@ -32,8 +32,8 @@ How do you deliver this? Here are some guidelines:
 [Tbonexas TeamProfile Repo](https://github.com/tbonexas/teamprofile)  
 
 ## Link to video demo:
-[Function Demo]<img src="https://drive.google.com/file/d/19iiuk2hkDxWuJl-JUeP-f_mHWaHfbGln/view?usp=sharing" target="_blank">   
-[Content demo with theme]<img src="https://drive.google.com/file/d/1AeI9lYHmeEFqcQ7Fo51IgbMPTLj1IKjN/view?usp=sharing" traget="_blank">
+[Function Demo](https://drive.google.com/file/d/19iiuk2hkDxWuJl-JUeP-f_mHWaHfbGln/view?usp=sharing)  
+[Content demo with theme](https://drive.google.com/file/d/1AeI9lYHmeEFqcQ7Fo51IgbMPTLj1IKjN/view?usp=sharing)
   
 ## Portfolio:  
 [Todd Wayment Portfolio](https://tbonexas.github.io/portfolio)  
