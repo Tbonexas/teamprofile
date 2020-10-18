@@ -20,7 +20,7 @@ How do you deliver this? Here are some guidelines:
 * Your app will run as a Node CLI to gather information about each employee.  
 
 ## Screenshot of output HTML:  
-![image](https://user-images.githubusercontent.com/67118229/96198065-9cd08b80-0f08-11eb-8909-92751c7ea2a2.png)  
+![image](https://user-images.githubusercontent.com/67118229/96356938-0b991a80-10aa-11eb-8e12-30aef76985af.png)  
     
 
 ## Test Pass:  
